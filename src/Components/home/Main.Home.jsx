@@ -11,7 +11,7 @@ function MainHome() {
             <Intro />
             <Detail />
             <Blog />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
