@@ -1,447 +1,421 @@
-import * as React from "react";
-
-function ServiceContent(props) {
-  return (
-    <div className="bg-white flex flex-col pt-4">
-      
-      <div className="self-center w-full max-w-[1338px] mt-28 max-md:max-w-full max-md:mt-10">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
-            <div className="flex flex-col my-auto px-5 items-start max-md:max-w-full max-md:mt-10">
-              <div className="text-slate-800 text-6xl font-semibold leading-[72px] tracking-tighter self-stretch max-md:max-w-full max-md:text-4xl max-md:leading-[50px]">
-                We serve clients with ground breaking solutions
-              </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 self-stretch mt-7 max-md:max-w-full">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                leo odio, sagittis quis ornare quis.
-              </div>
-              <div className="text-white text-base font-semibold leading-4 capitalize bg-amber-500 w-[163px] max-w-full justify-center mt-9 pl-9 pr-5 py-5 rounded-3xl items-start max-md:pl-2.5">
-                Work With Us
-              </div>
+import React from "react";
+ function ServiceContent (){
+    return (
+        <div className="bg-white flex flex-row justify-center w-full">
+            <div className="bg-white overflow-hidden w-[1920px] h-[6255px] relative">
+                <footer className="absolute w-[1920px] h-[463px] top-[5792px] left-0 bg-transparent">
+                    <div className="relative w-[1920px] h-[463px]">
+                        <div className="absolute w-[1920px] h-[463px] top-0 left-0 bg-[#063155]">
+                            <div className="w-[1282px] top-[359px] left-[320px] absolute h-[24px]">
+                                <div className="w-[302px] top-0 left-[982px] absolute h-[24px]">
+                                    <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
+                                        Privacy Policy
+                                    </div>
+                                    <div className="absolute top-0 left-[142px] [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
+                                        Terms &amp; Conditions
+                                    </div>
+                                </div>
+                                <p className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
+                                    © All rights reserved – Finsweet
+                                </p>
+                            </div>
+                            <div className="h-[287px] top-[38px] left-[1867px] bg-[#f58a07] rounded-[20px_0px_0px_20px] absolute w-[53px]" />
+                            <img className="h-[144px] top-[319px] left-0 absolute w-[53px]" alt="Shape left" src="../src/assets/Shape Left.svg" />
+                        </div>
+                        <div className="absolute w-[1280px] h-[199px] top-[80px] left-[320px]">
+                            <div className="absolute w-[344px] h-[175px] top-0 left-[938px]">
+                                <button className="absolute w-[158px] h-[54px] top-[121px] left-0 all-[unset] box-border">
+                                    <div className="relative w-[156px] h-[54px] bg-[#f58a07] rounded-[31px]">
+                                        <div className="absolute top-[17px] left-[32px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[19.2px] whitespace-nowrap">
+                                            Subscribe
+                                        </div>
+                                    </div>
+                                </button>
+                                <div className="absolute w-[344px] h-[54px] top-[51px] left-0">
+                                    <input
+                                        className="relative w-[342px] h-[54px] bg-white rounded-[31px] border-[none] [font-family:'Inter-Medium',Helvetica] font-medium text-[#9c9c9c] text-[16px] tracking-[0] leading-[normal] whitespace-nowrap p-0 pl-[32px]"
+                                        placeholder="Type email here"
+                                        type="email"
+                                    />
+                                </div>
+                                <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[normal]">
+                                    Join Newsletter
+                                </div>
+                            </div>
+                            <div className="w-[148px] h-[117px] left-[659px] absolute top-0">
+                                <div className="absolute top-[93px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
+                                    +(123) 456-7890
+                                </div>
+                                <div className="absolute top-[53px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
+                                    hi@finsweet.com
+                                </div>
+                                <div className="left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[normal] absolute top-0">
+                                    Connect
+                                </div>
+                            </div>
+                            <div className="w-[102px] h-[195px] left-[461px] absolute top-0">
+                                <div className="absolute top-[171px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
+                                    Blog
+                                </div>
+                                <div className="absolute top-[131px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
+                                    Services
+                                </div>
+                                <div className="absolute top-[91px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
+                                    Careers
+                                </div>
+                                <div className="absolute top-[51px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-white text-[16px] tracking-[0] leading-[normal]">
+                                    About Us
+                                </div>
+                                <div className="left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[normal] absolute top-0">
+                                    Company
+                                </div>
+                            </div>
+                            <div className="absolute w-[353px] h-[199px] top-0 left-0">
+                                <div className="w-[136px] top-[179px] left-0 absolute h-[20px]">
+                                    <img
+                                        className="w-[21px] top-0 left-[115px] absolute h-[20px]"
+                                        alt="Social icon twitter"
+                                        src="../src/assets/twitter.svg"
+                                    />
+                                    <img
+                                        className="w-[21px] top-0 left-0 absolute h-[20px]"
+                                        alt="Social icon facebook"
+                                        src="../src/assets/facebook.svg"
+                                    />
+                                    <img className="w-[21px] top-0 left-[76px] absolute h-[20px]" alt="Social icon" src="../src/assets/instagram.svg" />
+                                    <div className="w-[21px] top-0 left-[38px] absolute h-[20px]">
+                                        <img className="absolute w-[20px] h-[13px] top-[3px] left-px" alt="Subtract" src="../src/assets/youtube.svg" />
+                                    </div>
+                                </div>
+                                <div className="absolute w-[351px] top-[59px] left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[36px] tracking-[-1.08px] leading-[44px]">
+                                    Bespoke software solutions
+                                </div>
+                                <img className="w-[120px] h-[27px] top-0 absolute left-0" alt="Logo" src="../src/assets/Logo.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <div className="absolute w-[1922px] h-[819px] top-[4973px] left-0">
+                    <div className="relative w-[1920px] h-[819px] bg-[#dbeaf5]">
+                        <div className="absolute w-[400px] h-[507px] top-[216px] left-[1200px]">
+                            <div className="absolute w-[400px] h-[277px] top-[230px] left-0 bg-white rounded-[0px_0px_20px_20px]">
+                                <div className="relative w-[340px] h-[213px] top-[32px] left-[32px]">
+                                    <div className="absolute w-[122px] h-[17px] top-[196px] left-0">
+                                        <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
+                                            Learn More
+                                        </div>
+                                        <img className="absolute w-[22px] h-[10px] top-[4px] left-[98px]" alt="Icon" src="../src/assets/arrow.svg" />
+                                    </div>
+                                    <p className="absolute w-[336px] top-[88px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
+                                        elit et.
+                                    </p>
+                                    <p className="absolute w-[336px] top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#0d1317] text-[24px] tracking-[-0.72px] leading-[36px]">
+                                        Helping the next generation of leaders
+                                    </p>
+                                </div>
+                            </div>
+                            <img className="w-[400px] h-[230px] left-0 absolute top-0 object-cover" src="../src/assets/log3.png" />
+                        </div>
+                        <div className="absolute w-[400px] h-[507px] top-[216px] left-[760px]">
+                            <div className="absolute w-[400px] h-[277px] top-[230px] left-0 bg-white rounded-[0px_0px_20px_20px]">
+                                <div className="relative w-[340px] h-[213px] top-[32px] left-[32px]">
+                                    <div className="absolute w-[122px] h-[17px] top-[196px] left-0">
+                                        <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
+                                            Learn More
+                                        </div>
+                                        <img className="absolute w-[22px] h-[10px] top-[4px] left-[98px]" alt="Icon" src="../src/assets/arrow.svg"/>
+                                    </div>
+                                    <p className="absolute w-[336px] top-[88px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
+                                        elit et.
+                                    </p>
+                                    <p className="absolute w-[336px] top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#0d1317] text-[24px] tracking-[-0.72px] leading-[36px]">
+                                        Our internal process and longerm vision
+                                    </p>
+                                </div>
+                            </div>
+                            <img className="w-[400px] h-[230px] left-0 absolute top-0 object-cover" alt="Image" src="../src/assets/new1.png" />
+                        </div>
+                        <div className="absolute w-[400px] h-[507px] top-[216px] left-[320px]">
+                            <div className="absolute w-[400px] h-[277px] top-[230px] left-0 bg-white rounded-[0px_0px_20px_20px]">
+                                <div className="relative w-[340px] h-[213px] top-[32px] left-[32px]">
+                                    <div className="absolute w-[122px] h-[17px] top-[196px] left-0">
+                                        <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
+                                            Learn More
+                                        </div>
+                                        <img className="absolute w-[22px] h-[10px] top-[4px] left-[98px]" alt="Icon" src="../src/assets/arrow.svg" />
+                                    </div>
+                                    <p className="absolute w-[336px] top-[88px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
+                                        elit et.
+                                    </p>
+                                    <p className="absolute w-[336px] top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#0d1317] text-[24px] tracking-[-0.72px] leading-[36px]">
+                                        Why you have to digitalize in 2021
+                                    </p>
+                                </div>
+                            </div>
+                            <img className="w-[400px] h-[230px] left-0 absolute top-0 object-cover" alt="Image" src="../src/assets/log1.png" />
+                        </div>
+                        <div className="absolute w-[453px] top-[96px] left-[320px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#0d1317] text-[48px] tracking-[-1.44px] leading-[56px]">
+                            Latest Blog &amp; News
+                        </div>
+                    </div>
+                </div>
+                <div className="absolute w-[1780px] h-[701px] top-[4344px] left-[320px]">
+                    <div className="absolute w-[520px] h-[401px] top-0 left-[660px] bg-[url(image-4.png)] bg-cover bg-[50%_50%]">
+                        <div className="relative w-[52px] h-[71px] top-[-90px] left-[40px]">
+                            <div className="absolute w-[601px] h-[61px] top-0 left-0 bg-white rounded-[25.5px]">
+                            <img className="w-[720px] h-[550px] left-0 absolute top-0 object-cover" alt="Image" src="../src/assets/service10.png" />
+                            </div>
+                            <div className="w-[51px] h-[51px]">
+                                <div className="fixed w-[51px] h-[51px] top-0 left-0 bg-white rounded-[25.5px]" />
+                                    <div className="w-[17px] h-[17px]">
+                                </div>
+                            </div>
+                            <div className="absolute top-[476px] left-[68px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[18px] tracking-[0] leading-[18.3px] whitespace-nowrap">
+                                Play Video
+                            </div>
+                        </div>
+                    </div>
+                    <div className="absolute w-[554px] h-[346px] top-[78px] left-0">
+                        <div className="absolute w-[253px] h-[80px] top-[266px] left-0">
+                            <div className="absolute w-[145px] h-[68px] top-[6px] left-[104px]">
+                                <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#063155] text-[24px] tracking-[0] leading-[41.0px] whitespace-nowrap">
+                                    Chikelu Neo
+                                </div>
+                                <div className="absolute top-[37px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[18px] tracking-[0] leading-[30.8px] whitespace-nowrap">
+                                    CEO at MazeAI
+                                </div>
+                            </div>
+                            <img className="w-[80px] h-[80px] left-0 absolute top-0 object-cover" alt="Image" src="../src/assets/service8.svg" />
+                        </div>
+                        <p className="absolute w-[550px] top-[136px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[18px] tracking-[0] leading-[30px]">
+                            Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam
+                            dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.
+                        </p>
+                        <p className="absolute w-[550px] top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#0d1317] text-[48px] tracking-[-1.44px] leading-[56px]">
+                            Finsweet Was A Dream To Work With
+                        </p>
+                    </div>
+                </div>
+                <div className="absolute w-[1376px] h-[3262px] top-[954px] left-[272px]">
+                    <div className="absolute w-[1324px] h-[550px] top-[2712px] left-[4px]">
+                        <div className="absolute w-[588px] h-[294px] top-[128px] left-[740px]">
+                            <div className="absolute w-[270px] h-[100px] top-[194px] left-px">
+                                <div className="w-[272px] top-0 absolute h-[28px] left-0">
+                                    <div className="absolute top-0 left-[13px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px] whitespace-nowrap">
+                                        Smart contract implementation
+                                    </div>
+                                    <div className="absolute w-[5px] h-[5px] top-[12px] left-0 bg-[#0d1317] rounded-[2.5px]" />
+                                </div>
+                                <div className="w-[190px] top-[36px] absolute h-[28px] left-0">
+                                    <div className="absolute top-0 left-[13px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px] whitespace-nowrap">
+                                        Smart legal contracts
+                                    </div>
+                                    <div className="absolute w-[5px] h-[5px] top-[12px] left-0 bg-[#0d1317] rounded-[2.5px]" />
+                                </div>
+                                <div className="w-[164px] top-[72px] absolute h-[28px] left-0">
+                                    <div className="absolute top-0 left-[13px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px] whitespace-nowrap">
+                                        Basic contract law
+                                    </div>
+                                    <div className="absolute w-[5px] h-[5px] top-[12px] left-0 bg-[#0d1317] rounded-[2.5px]" />
+                                </div>
+                            </div>
+                            <p className="w-[583px] top-[80px] left-px absolute [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[18px] tracking-[0] leading-[30px]">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare
+                                quis.met, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.
+                            </p>
+                            <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#0d1317] text-[48px] tracking-[-1.44px] leading-[56px] whitespace-nowrap">
+                                Smart Contracts
+                            </div>
+                        </div>
+                        <div className="absolute w-[664px] h-[550px] top-0 left-0">
+                            <div className="relative h-[550px]">
+                                <img
+                                    className="w-[620px] h-[550px] left-[44px] absolute top-0 object-cover"
+                                    alt="Image"
+                                    src="../src/assets/service7.png"
+                                />
+                                <img
+                                    className="w-[95px] h-[97px] top-[342px] left-0 absolute mix-blend-multiply"
+                                    alt="Orange"
+                                    src="../src/assets/Orange1.svg"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="absolute w-[1328px] h-[550px] top-[2034px] left-[48px]">
+                        <div className="absolute w-[668px] h-[550px] top-0 left-[660px]">
+                            <div className="relative h-[550px]">
+                                <img className="w-[620px] h-[550px] left-0 absolute top-0 object-cover" alt="Image" src="../src/assets/service6.png" />
+                                <img
+                                    className="w-[95px] h-[97px] top-[272px] left-[573px] absolute mix-blend-multiply"
+                                    alt="Orange"
+                                    src="../src/assets/Orange1.svg"
+                                />
+                            </div>
+                        </div>
+                        <div className="absolute w-[584px] h-[230px] top-[160px] left-0">
+                            <p className="w-[580px] top-[80px] left-0 absolute [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[18px] tracking-[0] leading-[30px]">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare
+                                quis.met, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis. Lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis.
+                            </p>
+                            <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#0d1317] text-[48px] tracking-[-1.44px] leading-[56px] whitespace-nowrap">
+                                Artificial intelligence
+                            </div>
+                        </div>
+                    </div>
+                    <div className="absolute w-[1328px] h-[550px] top-[1356px] left-0">
+                        <div className="absolute w-[588px] h-[294px] top-[128px] left-[744px]">
+                            <div className="w-[276px] absolute h-[100px] top-[194px] left-px">
+                                <div className="w-[227px] absolute h-[28px] top-0 left-0">
+                                    <div className="absolute top-0 left-[13px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px] whitespace-nowrap">
+                                        Individual risk assessment
+                                    </div>
+                                    <div className="absolute w-[5px] h-[5px] top-[12px] left-0 bg-[#0d1317] rounded-[2.5px]" />
+                                </div>
+                                <div className="w-[216px] absolute h-[28px] top-[36px] left-0">
+                                    <div className="absolute top-0 left-[13px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px] whitespace-nowrap">
+                                        Systems risk assessment
+                                    </div>
+                                    <div className="absolute w-[5px] h-[5px] top-[12px] left-0 bg-[#0d1317] rounded-[2.5px]" />
+                                </div>
+                                <div className="w-[278px] absolute h-[28px] top-[72px] left-0">
+                                    <div className="absolute top-0 left-[13px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px] whitespace-nowrap">
+                                        Mathematical conceptualization
+                                    </div>
+                                    <div className="absolute w-[5px] h-[5px] top-[12px] left-0 bg-[#0d1317] rounded-[2.5px]" />
+                                </div>
+                            </div>
+                            <p className="w-[583px] top-[80px] left-px absolute [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[18px] tracking-[0] leading-[30px]">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare
+                                quis.met, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.
+                            </p>
+                            <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#0d1317] text-[48px] tracking-[-1.44px] leading-[56px] whitespace-nowrap">
+                                Risk assessment
+                            </div>
+                        </div>
+                        <div className="absolute w-[668px] h-[550px] top-0 left-0">
+                            <div className="relative h-[550px]">
+                                <img
+                                    className="w-[620px] h-[550px] left-[48px] absolute top-0 object-cover"
+                                    alt="Image"
+                                    src="../src/assets/service5.png"
+                                />
+                                <img
+                                    className="w-[95px] h-[97px] top-[217px] left-0 absolute mix-blend-multiply"
+                                    alt="Orange"
+                                    src="../src/assets/Orange1.svg"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="absolute w-[1328px] h-[550px] top-[678px] left-[48px]">
+                        <div className="absolute w-[668px] h-[550px] top-0 left-[660px]">
+                            <div className="relative h-[550px]">
+                                <img className="w-[620px] h-[550px] left-0 absolute top-0 object-cover" alt="Image" src="../src/assets/service4.png" />
+                                <img
+                                    className="w-[95px] h-[97px] top-[272px] left-[573px] absolute mix-blend-multiply"
+                                    alt="Orange"
+                                    src="../src/assets/Orange1.svg"
+                                />
+                            </div>
+                        </div>
+                        <div className="absolute w-[584px] h-[230px] top-[157px] left-0">
+                            <p className="w-[580px] top-[80px] left-0 absolute [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[18px] tracking-[0] leading-[30px]">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare
+                                quis.met, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis. Lorem ipsum dolor
+                                sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis.
+                            </p>
+                            <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#0d1317] text-[48px] tracking-[-1.44px] leading-[56px] whitespace-nowrap">
+                                Digitalization
+                            </div>
+                        </div>
+                    </div>
+                    <div className="absolute w-[1328px] h-[550px] top-0 left-px">
+                        <div className="absolute w-[588px] h-[294px] top-[128px] left-[744px]">
+                            <div className="w-[347px] absolute h-[100px] top-[194px] left-px">
+                                <div className="w-[124px] absolute h-[28px] top-0 left-0">
+                                    <div className="absolute top-0 left-[13px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px] whitespace-nowrap">
+                                        Cost strategy
+                                    </div>
+                                    <div className="absolute w-[5px] h-[5px] top-[12px] left-0 bg-[#0d1317] rounded-[2.5px]" />
+                                </div>
+                                <div className="w-[349px] absolute h-[28px] top-[36px] left-0">
+                                    <p className="absolute top-0 left-[13px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px] whitespace-nowrap">
+                                        Differentiated product or service strategy
+                                    </p>
+                                    <div className="absolute w-[5px] h-[5px] top-[12px] left-0 bg-[#0d1317] rounded-[2.5px]" />
+                                </div>
+                                <div className="w-[222px] absolute h-[28px] top-[72px] left-0">
+                                    <p className="absolute top-0 left-[13px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px] whitespace-nowrap">
+                                        Focus on a niche strategy
+                                    </p>
+                                    <div className="absolute w-[5px] h-[5px] top-[12px] left-0 bg-[#0d1317] rounded-[2.5px]" />
+                                </div>
+                            </div>
+                            <p className="w-[583px] top-[80px] left-px absolute [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[18px] tracking-[0] leading-[30px]">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare
+                                quis.met, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.
+                            </p>
+                            <div className="absolute top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#0d1317] text-[48px] tracking-[-1.44px] leading-[56px] whitespace-nowrap">
+                                Business strategy
+                            </div>
+                        </div>
+                        <div className="absolute w-[668px] h-[550px] top-0 left-0">
+                            <div className="relative h-[550px]">
+                                <img
+                                    className="w-[620px] h-[550px] left-[48px] absolute top-0 object-cover"
+                                    alt="Image"
+                                    src="../src/assets/service3.png"
+                                />
+                                <img
+                                    className="w-[95px] h-[97px] top-[128px] left-0 absolute mix-blend-multiply"
+                                    alt="Orange"
+                                    src="../src/assets/Orange1.svg"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <header className="absolute w-[1338px] h-[650px] top-[176px] left-[320px] bg-transparent">
+                    <div className="absolute w-[674px] h-[650px] top-0 left-[664px]">
+                        <div className="relative h-[650px]">
+                            <img className="w-[616px] h-[650px] left-0 absolute top-0 object-cover" alt="Image" src="../src/assets/service.png"/>
+                            <img className="absolute w-[116px] h-[113px] top-[92px] left-[558px]" alt="Circle"src="../src/assets/circle1.svg" />
+                            <div className="w-[180px] h-[650px] top-0 left-0 bg-[#f58a07] rounded-[0px_19px_20px_0px] rotate-[-180.00deg] absolute mix-blend-multiply" />
+                        </div>
+                    </div>
+                    <div className="absolute w-[622px] h-[385px] top-[132px] left-0">
+                        <button className="absolute w-[173px] h-[54px] top-[331px] left-0 all-[unset] box-border">
+                            <div className="relative w-[171px] h-[54px] bg-[#f58a07] rounded-[27px]">
+                                <div className="absolute top-[18px] left-[32px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
+                                    Work With Us
+                                </div>
+                            </div>
+                        </button>
+                        <p className="w-[510px] top-[240px] left-0 absolute [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[18px] tracking-[0] leading-[30px]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.
+                        </p>
+                        <p className="absolute w-[618px] top-0 left-0 [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#1d3444] text-[64px] tracking-[-1.92px] leading-[72px]">
+                            We serve clients with ground breaking solutions
+                        </p>
+                    </div>
+                </header>
+                <div className="absolute w-[1280px] h-[52px] top-[16px] left-[320px]">
+                    <button className="absolute w-[175px] h-[52px] top-0 left-[1107px] all-[unset] box-border">
+                        <div className="relative w-[173px] h-[52px] bg-[#f58a071a] rounded-[31px]">
+                            <div className="absolute top-[18px] left-[32px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
+                                Clone project
+                            </div>
+                        </div>
+                    </button>
+                </div>
             </div>
-          </div>
-          <div className="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="..."
-              className="aspect-[1.04] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-            />
-          </div>
         </div>
-      </div>
-      <div className="self-center w-full max-w-[1328px] mt-32 max-md:max-w-full max-md:mt-10">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="..."
-              className="aspect-[1.21] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-            />
-          </div>
-          <div className="flex flex-col items-stretch w-[47%] ml-5 max-md:w-full max-md:ml-0">
-            <div className="flex flex-col items-stretch my-auto px-5 max-md:max-w-full max-md:mt-10">
-              <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
-                Business strategy
-              </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 mt-7 max-md:max-w-full">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
-                elit. Aliquam leo odio, sagittis quis ornare quis.
-              </div>
-              <div className="flex gap-2 mt-9 self-start items-start">
-                <div className="flex w-[5px] shrink-0 h-[5px] flex-col rounded-[50%]" />
-                <div className="text-zinc-600 text-base font-medium leading-7">
-                  Cost strategy
-                </div>
-              </div>
-              <div className="flex items-center gap-2 mt-5 self-start">
-                <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
-                <div className="text-zinc-600 text-base font-medium leading-7 self-stretch grow shrink basis-auto">
-                  Differentiated product or service strategy
-                </div>
-              </div>
-              <div className="flex items-center gap-2 mt-5 self-start">
-                <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
-                <div className="text-zinc-600 text-base font-medium leading-7">
-                  Focus on a niche strategy
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="self-center w-full max-w-[1328px] mt-32 max-md:max-w-full max-md:mt-10">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-[46%] max-md:w-full max-md:ml-0">
-            <div className="flex flex-col items-stretch my-auto px-5 max-md:max-w-full max-md:mt-10">
-              <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
-                Digitalization
-              </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 mt-7 max-md:max-w-full">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
-                elit. Aliquam leo odio, sagittis quis ornare quis. Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit. Aliquam leo odio,
-                sagittis.
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-stretch w-[54%] ml-5 max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="..."
-              className="aspect-[1.21] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="self-center w-full max-w-[1328px] mt-32 max-md:max-w-full max-md:mt-10">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="..."
-              className="aspect-[1.21] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-            />
-          </div>
-          <div className="flex flex-col items-stretch w-[47%] ml-5 max-md:w-full max-md:ml-0">
-            <div className="flex flex-col items-stretch my-auto px-5 max-md:max-w-full max-md:mt-10">
-              <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
-                Risk assessment
-              </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 mt-11 max-md:max-w-full max-md:mt-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
-                elit. Aliquam leo odio, sagittis quis ornare quis.
-              </div>
-              <div className="flex items-center gap-2 mt-9 self-start">
-                <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
-                <div className="text-zinc-600 text-base font-medium leading-7">
-                  Individual risk assessment
-                </div>
-              </div>
-              <div className="flex items-center gap-2 mt-6 self-start">
-                <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
-                <div className="text-zinc-600 text-base font-medium leading-7">
-                  Systems risk assessment
-                </div>
-              </div>
-              <div className="flex items-center gap-2 mt-5 self-start">
-                <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
-                <div className="text-zinc-600 text-base font-medium leading-7 self-stretch grow shrink basis-auto">
-                  Mathematical conceptualization
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="self-center w-full max-w-[1328px] mt-32 max-md:max-w-full max-md:mt-10">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-[46%] max-md:w-full max-md:ml-0">
-            <div className="flex flex-col items-stretch my-auto px-5 max-md:max-w-full max-md:mt-10">
-              <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
-                Artificial intelligence
-              </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 mt-7 max-md:max-w-full">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
-                elit. Aliquam leo odio, sagittis quis ornare quis. Lorem ipsum
-                dolor sit amet, consectetur adipiscing elit. Aliquam leo odio,
-                sagittis.
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-stretch w-[54%] ml-5 max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="..."
-              className="aspect-[1.21] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="self-center w-full max-w-[1324px] mt-32 max-md:max-w-full max-md:mt-10">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="..."
-              className="aspect-[1.21] object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
-            />
-          </div>
-          <div className="flex flex-col items-stretch w-[47%] ml-5 max-md:w-full max-md:ml-0">
-            <div className="flex flex-col items-stretch my-auto px-5 max-md:max-w-full max-md:mt-10">
-              <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
-                Smart Contracts
-              </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 mt-11 max-md:max-w-full max-md:mt-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                leo odio, sagittis quis ornare quis.met, consectetur adipiscing
-                elit. Aliquam leo odio, sagittis quis ornare quis.
-              </div>
-              <div className="flex items-center gap-2 mt-9 self-start">
-                <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
-                <div className="text-zinc-600 text-base font-medium leading-7 self-stretch grow shrink basis-auto">
-                  Smart contract implementation
-                </div>
-              </div>
-              <div className="flex items-center gap-2 mt-5 self-start">
-                <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
-                <div className="text-zinc-600 text-base font-medium leading-7">
-                  Smart legal contracts
-                </div>
-              </div>
-              <div className="flex items-center gap-2 mt-5 self-start">
-                <div className="flex w-[5px] shrink-0 h-[5px] flex-col my-auto rounded-[50%]" />
-                <div className="text-zinc-600 text-base font-medium leading-7">
-                  Basic contract law
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="self-center w-[1280px] max-w-full mt-32 max-md:mt-10">
-        <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-          <div className="flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
-            <div className="flex flex-col my-auto px-5 items-start max-md:max-w-full max-md:mt-10">
-              <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter capitalize self-stretch max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
-                Finsweet was a dream to work with
-              </div>
-              <div className="text-zinc-600 text-lg font-medium leading-8 self-stretch mt-11 max-md:max-w-full max-md:mt-10">
-                Maecenas efficitur scelerisque lorem, et varius lacus tincidunt
-                vel. Pellentesque a arcu vitae diam dapibus mattis vel vel orci.
-                Vivamus eleifend nec felis vel auctor.
-              </div>
-              <div className="flex items-stretch justify-between gap-5 mt-12 max-md:mt-10">
-                <img
-                  loading="lazy"
-                  srcSet="..."
-                  className="aspect-square object-contain object-center w-20 overflow-hidden shrink-0 max-w-full rounded-[50%]"
-                />
-                <div className="self-center flex grow basis-[0%] flex-col items-stretch my-auto">
-                  <div className="text-sky-950 text-2xl font-medium leading-10">
-                    Chikelu Neo
-                  </div>
-                  <div className="text-amber-500 text-lg font-medium leading-8 mt-4">
-                    CEO at MazeAI
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-stretch w-[53%] ml-5 max-md:w-full max-md:ml-0">
-            <div className="overflow-hidden grow px-10 py-11 max-md:max-w-full max-md:mt-10 max-md:px-5">
-              <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-                <div className="flex flex-col items-stretch w-[36%] max-md:w-full max-md:ml-0">
-                  <img
-                    loading="lazy"
-                    srcSet="..."
-                    className="aspect-square object-contain object-center w-[51px] overflow-hidden shrink-0 max-w-full mt-96 rounded-[50%] max-md:mt-10"
-                  />
-                </div>
-                <div className="flex flex-col items-stretch w-[64%] ml-5 max-md:w-full max-md:ml-0">
-                  <div className="text-white text-lg font-semibold leading-5 capitalize mt-96 max-md:mt-10">
-                    play Video
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="bg-slate-200 self-stretch flex w-full flex-col justify-center items-center mt-32 px-5 py-12 max-md:max-w-full max-md:mt-10">
-        <div className="flex w-[1280px] max-w-full flex-col items-stretch mt-14 mb-12 max-md:my-10">
-          <div className="text-neutral-900 text-5xl font-semibold leading-[56px] tracking-tighter capitalize max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
-            Latest Blog & News
-          </div>
-          <div className="mt-16 max-md:max-w-full max-md:mt-10">
-            <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-              <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
-                <img
-                  loading="lazy"
-                  srcSet="..."
-                  className="aspect-[1.74] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
-                />
-              </div>
-              <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
-                <img
-                  loading="lazy"
-                  srcSet="..."
-                  className="aspect-[1.74] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
-                />
-              </div>
-              <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
-                <img
-                  loading="lazy"
-                  srcSet="..."
-                  className="aspect-[1.74] object-contain object-center w-full overflow-hidden grow max-md:mt-10"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="max-md:max-w-full">
-            <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-              <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
-                <div className="bg-white flex grow flex-col w-full px-8 py-9 rounded-none items-start max-md:mt-10 max-md:px-5">
-                  <div className="text-neutral-900 text-2xl font-medium leading-9 tracking-tighter self-stretch">
-                    Why you have to digitalize in 2021
-                  </div>
-                  <div className="text-zinc-600 text-base font-medium leading-7 self-stretch mt-9">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur sit amet eros blandit, hendrerit elit et.
-                  </div>
-                  <div className="flex items-stretch gap-3 mt-8">
-                    <div className="text-amber-500 text-base font-medium leading-4">
-                      Learn More
-                    </div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f4ffaea5-3940-4f18-9927-8556544f99b9?"
-                      className="aspect-[2.2] object-contain object-center w-[22px] fill-amber-500 overflow-hidden shrink-0 max-w-full self-start"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
-                <div className="bg-white flex grow flex-col w-full px-8 py-9 rounded-none items-start max-md:mt-10 max-md:px-5">
-                  <div className="text-neutral-900 text-2xl font-medium leading-9 tracking-tighter self-stretch">
-                    Our internal process and longerm vision
-                  </div>
-                  <div className="text-zinc-600 text-base font-medium leading-7 self-stretch mt-7">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur sit amet eros blandit, hendrerit elit et.
-                  </div>
-                  <div className="flex items-stretch gap-3 mt-8">
-                    <div className="text-amber-500 text-base font-medium leading-4">
-                      Learn More
-                    </div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/a6bb2fdc-101e-46a7-b1d4-bcc5a7b0cdaa?"
-                      className="aspect-[2.2] object-contain object-center w-[22px] fill-amber-500 overflow-hidden shrink-0 max-w-full self-start"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
-                <div className="bg-white flex grow flex-col w-full px-8 py-9 rounded-none items-start max-md:mt-10 max-md:px-5">
-                  <div className="text-neutral-900 text-2xl font-medium leading-9 tracking-tighter self-stretch">
-                    Helping the next generation of leaders
-                  </div>
-                  <div className="text-zinc-600 text-base font-medium leading-7 self-stretch mt-9">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur sit amet eros blandit, hendrerit elit et.
-                  </div>
-                  <div className="flex items-stretch gap-3 mt-8">
-                    <div className="text-amber-500 text-base font-medium leading-4">
-                      Learn More
-                    </div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ec5ce59-b17d-41cb-9fa3-4cc54ca84a21?"
-                      className="aspect-[2.2] object-contain object-center w-[22px] fill-amber-500 overflow-hidden shrink-0 max-w-full self-start"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="bg-sky-950 self-stretch flex w-full justify-between gap-5 pt-10 items-end max-md:max-w-full max-md:flex-wrap">
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b66f68e-ef9b-4e3a-80dd-28ffe264d3bd?"
-          className="aspect-[0.37] object-contain object-center w-[53px] fill-amber-500 overflow-hidden shrink-0 max-w-full mt-72 max-md:mt-10"
-        />
-        <div className="flex grow basis-[0%] flex-col items-stretch self-start max-md:max-w-full">
-          <div className="flex w-full items-stretch justify-between gap-5 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-            <div className="self-center flex basis-[0%] flex-col items-stretch my-auto">
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/cadb590b-be5d-415a-a522-d119aaaa6dbb?"
-                className="aspect-[11.33] object-contain object-center w-[306px] fill-white overflow-hidden self-center"
-              />
-              <div className="text-white text-4xl font-semibold leading-10 tracking-tighter mt-10">
-                Bespoke software solutions
-              </div>
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b16b7539-ff9b-4b2e-92bb-71ac29f34250?"
-                className="aspect-[15.3] object-contain object-center w-[306px] overflow-hidden self-center mt-10 max-md:mt-10"
-              />
-            </div>
-            <div className="self-center my-auto max-md:max-w-full">
-              <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-                <div className="flex flex-col items-stretch w-[18%] max-md:w-full max-md:ml-0">
-                  <div className="flex grow flex-col items-stretch max-md:mt-10">
-                    <div className="text-white text-lg font-semibold">
-                      Company
-                    </div>
-                    <div className="text-white text-base font-medium mt-8">
-                      About Us
-                    </div>
-                    <div className="text-white text-base font-medium mt-7">
-                      Careers
-                    </div>
-                    <div className="text-white text-base font-medium mt-7">
-                      Services
-                    </div>
-                    <div className="text-white text-base font-medium mt-7">
-                      Blog
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-col items-stretch w-[26%] ml-5 max-md:w-full max-md:ml-0">
-                  <div className="flex flex-col items-stretch max-md:mt-10">
-                    <div className="text-white text-lg font-semibold">
-                      Connect
-                    </div>
-                    <div className="text-white text-base font-medium mt-10">
-                      hi@finsweet.com
-                    </div>
-                    <div className="text-white text-base font-medium mt-5">
-                      +(123) 456-7890
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-col items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0">
-                  <div className="flex flex-col items-stretch max-md:mt-10">
-                    <div className="text-white text-lg font-semibold">
-                      Join Newsletter
-                    </div>
-                    <div className="text-neutral-400 text-base font-medium bg-white justify-center mt-8 pl-8 pr-5 py-5 rounded-[31px] items-start max-md:pl-2.5">
-                      Type email here
-                    </div>
-                    <div className="text-white text-lg font-semibold leading-5 capitalize bg-amber-500 justify-center mt-4 pl-8 pr-5 py-5 rounded-[31px] items-start max-md:pl-2.5">
-                      Subscribe
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="bg-amber-500 flex w-[53px] shrink-0 h-[287px] flex-col rounded-3xl" />
-          </div>
-          <div className="flex w-full items-stretch justify-between gap-5 mt-10 pr-20 max-md:max-w-full max-md:flex-wrap max-md:pr-5">
-            <div className="text-white text-base font-medium grow shrink basis-auto">
-              © All rights reserved – Finsweet
-            </div>
-            <div className="flex items-stretch justify-between gap-5">
-              <div className="text-white text-base font-medium">
-                Privacy Policy
-              </div>
-              <div className="text-white text-base font-medium">
-                Terms & Conditions
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
+    );
+};
 
 export default ServiceContent
