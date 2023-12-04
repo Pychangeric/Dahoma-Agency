@@ -4,6 +4,7 @@ import Numbers from './Acomponent/Numbers'
 import Team from './Acomponent/Team'
 import Start from './Acomponent/Start'
 
+
 function About() {
   return (
     <div>
@@ -11,7 +12,6 @@ function About() {
         <Numbers />
         <Team />
         <Start />
-
     </div>
   )
 }
