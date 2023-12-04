@@ -7,7 +7,7 @@ import MainHome from './Components/home/Main.Home'
 import About from './Components/About/About';
 import Services from './Components/Service/Services';
 import Blog from './Components/Blog/Blog';
-
+import Contact from './Components/Contact/Contact';
 
 
 function App() {
@@ -21,6 +21,9 @@ function App() {
           <Route path="/aboutus" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/contactus" element={<Contact />} />
+          
+
 
         </Routes>
       </Router>
