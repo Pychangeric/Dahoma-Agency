@@ -5,7 +5,7 @@ function Start() {
     <>
     <div className="w-[1280px] h-[501px]">
   <img
-    src="image.png"
+    src="../src/assets/service9.png"
     className="w-[620px] h-[501px] absolute left-[979.5px] top-[3206.5px] rounded-[20px] object-cover"
   />
   <div className="w-40 h-[51px]">
@@ -43,7 +43,7 @@ function Start() {
       <p className="absolute left-[424px] top-[3594px] text-lg font-medium text-left text-[#f58a07]">
         CEO at MazeAI
       </p>
-      <img className="absolute left-[319.5px] top-[3550.5px]" src="image-2.png" />
+      <img className="absolute left-[319.5px] top-[3550.5px]" src="../src/assets/ceo.png" />
     </div>
     <p className="w-[550px] absolute left-80 top-[3421px] text-lg font-medium text-left text-[#5b5b5b]">
       Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae

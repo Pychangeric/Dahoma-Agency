@@ -6,7 +6,7 @@ function Team() {
     <div className="w-[1315px] h-[699px]">
       <div className="w-[652px] h-[699px]">
         <img
-         src="image.png"
+         src="../src/assets/numbers2.png"
          className="w-[620px] h-[667px] absolute left-[982.5px] top-[1469.5px] rounded-[20px] object-cover"
         />
         <svg
@@ -41,7 +41,7 @@ function Team() {
     <div className="w-[1280px] h-[814px]">
        <div className="w-[290px] h-[521px]">
           <img
-            src="image-4.png"
+            src="../src/assets/team1.png"
             className="w-[290px] h-[521px] absolute left-[1309.5px] top-[2557.5px] rounded-[20px] object-cover"
           />
           <div className="w-[290px] h-[233px]">
@@ -73,15 +73,15 @@ function Team() {
        </div>
     </div>
       <img
-        src="image-3.png"
+        src="../src/assets/team2.png"
         className="w-[289px] h-[521px] absolute left-[980.5px] top-[2557.5px] rounded-[20px] object-none"
       />
       <img
-        src="image-2.png"
+        src="../src/assets/team3.png"
         className="w-[290px] h-[521px] absolute left-[649.5px] top-[2557.5px] rounded-[20px] object-none"
       />
       <img
-        src="image-1.png"
+        src="../src/assets/team4.png"
         className="w-[290px] h-[521px] absolute left-[319.5px] top-[2557.5px] rounded-[20px] object-none"
       />
       <p className="w-[721px] absolute left-80 top-[2404px] text-lg font-medium text-left text-[#5b5b5b]">

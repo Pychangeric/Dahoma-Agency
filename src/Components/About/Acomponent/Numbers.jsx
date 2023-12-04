@@ -24,7 +24,7 @@ function Numbers() {
       {/* The Image to the left together with the badge*/}
       <div className="w-[674px] h-[699px]">
          <img
-          src="image.png"
+          src="../src/assets/numbers1.png"
           className="w-[616px] h-[650px] absolute left-[983.5px] top-[175.5px] rounded-[20px] object-cover"
          />
         <div className="w-[180px] h-[650px] absolute left-[983.5px] top-[175.5px] rounded-tr-[19px] rounded-br-[20px] bg-[#f58a07] mix-blend-multiply" />
