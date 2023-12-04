@@ -45,8 +45,8 @@ function entry() {
         <div className="w-[620px] h-[370px]">
           <div className="w-[620px] h-[370px] absolute left-[979.5px] top-[421.5px] rounded-[20px] bg-[#c4c4c4]" />
             <img
-              src="image.png"
-              className="w-[2111.56px] h-[397.66px] absolute left-[213.39px] top-[420.52px] object-cover"
+              src="../src/assets/contact.png"
+              className="w-[620px] h-[370px] absolute left-[979.5px] top-[421.5px] object-cover rounded-[20px] bg-[#c4c4c4]"
             />
           </div>
           <div className="w-[605px] h-[456px]">
