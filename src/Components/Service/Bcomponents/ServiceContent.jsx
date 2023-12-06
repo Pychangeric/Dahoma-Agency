@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
  function ServiceContent (){
     return (
         <div className="bg-white flex flex-row justify-center w-full">
@@ -101,9 +103,11 @@ import React from "react";
                             <div className="absolute w-[400px] h-[277px] top-[230px] left-0 bg-white rounded-[0px_0px_20px_20px]">
                                 <div className="relative w-[340px] h-[213px] top-[32px] left-[32px]">
                                     <div className="absolute w-[122px] h-[17px] top-[196px] left-0">
-                                        <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
+                                        <Link to="/blog">
+                                          <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
                                             Learn More
-                                        </div>
+                                          </div>
+                                        </Link>
                                         <img className="absolute w-[22px] h-[10px] top-[4px] left-[98px]" alt="Icon" src="../src/assets/arrow.svg" />
                                     </div>
                                     <p className="absolute w-[336px] top-[88px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
@@ -121,9 +125,11 @@ import React from "react";
                             <div className="absolute w-[400px] h-[277px] top-[230px] left-0 bg-white rounded-[0px_0px_20px_20px]">
                                 <div className="relative w-[340px] h-[213px] top-[32px] left-[32px]">
                                     <div className="absolute w-[122px] h-[17px] top-[196px] left-0">
-                                        <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
+                                        <Link to="/blog"> 
+                                         <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
                                             Learn More
-                                        </div>
+                                         </div>
+                                        </Link>
                                         <img className="absolute w-[22px] h-[10px] top-[4px] left-[98px]" alt="Icon" src="../src/assets/arrow.svg"/>
                                     </div>
                                     <p className="absolute w-[336px] top-[88px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
@@ -141,9 +147,11 @@ import React from "react";
                             <div className="absolute w-[400px] h-[277px] top-[230px] left-0 bg-white rounded-[0px_0px_20px_20px]">
                                 <div className="relative w-[340px] h-[213px] top-[32px] left-[32px]">
                                     <div className="absolute w-[122px] h-[17px] top-[196px] left-0">
-                                        <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
+                                        <Link>
+                                         <div className="absolute top-0 left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#f58a07] text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
                                             Learn More
-                                        </div>
+                                         </div>
+                                        </Link>
                                         <img className="absolute w-[22px] h-[10px] top-[4px] left-[98px]" alt="Icon" src="../src/assets/arrow.svg" />
                                     </div>
                                     <p className="absolute w-[336px] top-[88px] left-0 [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[16px] tracking-[0] leading-[28px]">
@@ -391,9 +399,11 @@ import React from "react";
                     <div className="absolute w-[622px] h-[385px] top-[132px] left-0">
                         <button className="absolute w-[173px] h-[54px] top-[331px] left-0 all-[unset] box-border">
                             <div className="relative w-[171px] h-[54px] bg-[#f58a07] rounded-[27px]">
+                                <Link to="/contactus">
                                 <div className="absolute top-[18px] left-[32px] [font-family:'Poppins-SemiBold',Helvetica] font-semibold text-white text-[16px] tracking-[0] leading-[17.0px] whitespace-nowrap">
                                     Work With Us
                                 </div>
+                                </Link>
                             </div>
                         </button>
                         <p className="w-[510px] top-[240px] left-0 absolute [font-family:'Poppins-Medium',Helvetica] font-medium text-[#5b5b5b] text-[18px] tracking-[0] leading-[30px]">
