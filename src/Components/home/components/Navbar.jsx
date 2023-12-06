@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     const navItems = [
         { label: 'About Us', link: '/aboutus' },
-        { label: 'Careers', link: '/careers' },
         { label: 'Services', link: '/services' },
         { label: 'Blog', link: '/blog' },
         { label: 'Contact Us', link: '/contactus' }
