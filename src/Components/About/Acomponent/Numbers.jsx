@@ -1,24 +1,21 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 function Numbers() {
-  const history = useHistory();
-
-  const handleWorkWithUsClick = () => {
-    history.push('/contactus');
-  };
+ 
   return (
     <>
     {/* Section 1*/}
      <div className="w-[618px] h-[529px]">
       <div className="w-[171px] h-[54px]">
        <div className="w-[171px] h-[54px] absolute left-[319.5px] top-[750.5px] rounded-[27px] bg-[#f58a07]" />
-         <button 
-         className="absolute left-[352px] top-[770px] text-base font-semibold text-left capitalize text-white"
-         onClick={handleWorkWithUsClick}
-         >
-           Work With Us
-         </button>
+        <Link to="/contactus">
+          <button
+            className="absolute left-[352px] top-[770px] text-base font-semibold text-left capitalize text-white"
+           >
+            Work With Us
+          </button>
+        </Link>
        </div>
           <p className="w-[510px] h-[59px] absolute left-80 top-[660px] text-lg font-medium text-left text-[#5b5b5b]">
            While recognizing the significance of artificial intelligence, our <br />

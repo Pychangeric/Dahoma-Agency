@@ -174,6 +174,7 @@ function Start() {
   </p>
 </div>;
 
+{/* The footer */}
 <footer className="absolute w-[1920px] h-[463px] top-[4654.5px] left-0 bg-transparent">
                     <div className="relative w-[1920px] h-[463px]">
                         <div className="absolute w-[1920px] h-[463px] top-0 left-0 bg-[#063155]">
