@@ -46,11 +46,12 @@ function Start() {
       <img className="absolute left-[319.5px] top-[3550.5px]" src="../src/assets/ceo.png" />
     </div>
     <p className="w-[550px] absolute left-80 top-[3421px] text-lg font-medium text-left text-[#5b5b5b]">
-      Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae
-      diam dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.
+     Partnering with Dahome was a game-changer, and we're <br />
+     thrilled with the results. Highly recommend their services <br />
+     for any startup any startup aiming to ascend in their industry.
     </p>
     <p className="w-[550px] absolute left-80 top-[3285px] text-5xl font-semibold text-left capitalize text-[#0d1317]">
-      Finsweet was a dream to work with
+      Dahome Propelled My Startup Up.
     </p>
   </div>
 </div>;

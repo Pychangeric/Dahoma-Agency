@@ -28,12 +28,11 @@ function Team() {
       </div>
       <div className="w-[585px] h-[376px]">
       <p className="w-[510px] absolute left-80 top-[1872px] text-lg font-medium text-left text-[#5b5b5b]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
-        hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+        Our misson is to craft designs and software solutions that trancend borders, embodying the essence of diverse cultures while leaving a lasting impact that's 
+        <br />universally recognized.
       </p>
       <p className="w-[585px] absolute left-80 top-[1616px] text-5xl font-semibold text-left text-[#0d1317]">
-        We want to get local identification in every corner of the world in this era of global
-        citizenship.
+        We aspire to create a local identity that resonates in every corner of the world
       </p>
      </div>
     </div>;
@@ -85,11 +84,13 @@ function Team() {
         className="w-[290px] h-[521px] absolute left-[319.5px] top-[2557.5px] rounded-[20px] object-none"
       />
       <p className="w-[721px] absolute left-80 top-[2404px] text-lg font-medium text-left text-[#5b5b5b]">
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
-         hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+         At our core, collaboration isn't just a strategy; it's our way of achieving <br />
+         excellence. Every project we undertake is a testament to the power of collective <br />
+         effort, where diverse perspectives converge to produce exceptional results that <br />
+         proprl both our team and our clients towards success.
       </p>
       <p className="w-[577px] absolute left-80 top-[2265px] text-5xl font-semibold text-left text-[#0d1317]">
-         Teamwork is the only way we work
+         Collaboration defines our work ethos
       </p>
      </div>;
     </>

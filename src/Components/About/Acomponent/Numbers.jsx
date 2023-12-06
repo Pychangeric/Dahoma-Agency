@@ -1,22 +1,33 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom';
 
 function Numbers() {
+  const history = useHistory();
+
+  const handleWorkWithUsClick = () => {
+    history.push('/contactus');
+  };
   return (
     <>
     {/* Section 1*/}
      <div className="w-[618px] h-[529px]">
       <div className="w-[171px] h-[54px]">
        <div className="w-[171px] h-[54px] absolute left-[319.5px] top-[750.5px] rounded-[27px] bg-[#f58a07]" />
-         <p className="absolute left-[352px] top-[770px] text-base font-semibold text-left capitalize text-white">
+         <button 
+         className="absolute left-[352px] top-[770px] text-base font-semibold text-left capitalize text-white"
+         onClick={handleWorkWithUsClick}
+         >
            Work With Us
-         </p>
+         </button>
        </div>
           <p className="w-[510px] h-[59px] absolute left-80 top-[660px] text-lg font-medium text-left text-[#5b5b5b]">
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare
-           quis.
+           While recognizing the significance of artificial intelligence, our <br />
+           primary focus remains on harnessing the innate potential and capabilities of human intellect
           </p>
           <p className="w-[618px] absolute left-80 top-[166px] text-[64px] font-semibold text-left text-[#1d3444]">
-           We value human, organizational, and operational intelligence, not just artificial
+           We prioritize operational intelligence above artificial 
+           <br />
+           intelligence
           </p>
       </div>;
  
@@ -148,9 +159,6 @@ function Numbers() {
 
       <div className="w-[1279px] h-[388px]">
          <div className="w-[270px] h-48">
-            <p className="w-[270px] absolute left-[1310px] top-[1258px] text-base font-medium text-left text-[#5b5b5b]">
-              Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.
-            </p>
             <p className="absolute left-[1310px] top-[1216px] text-2xl font-semibold text-left text-[#0d1317]">
               Custom solutions
             </p>
@@ -159,9 +167,6 @@ function Numbers() {
             </p>
          </div>
          <div className="w-[270px] h-48">
-            <p className="w-[270px] absolute left-[980px] top-[1258px] text-base font-medium text-left text-[#5b5b5b]">
-              Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.
-            </p>
             <p className="absolute left-[980px] top-[1216px] text-2xl font-semibold text-left text-[#0d1317]">
               Employees
             </p>
@@ -170,9 +175,6 @@ function Numbers() {
             </p>
          </div>
          <div className="w-[270px] h-48">
-           <p className="w-[270px] absolute left-[650px] top-[1258px] text-base font-medium text-left text-[#5b5b5b]">
-              Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.
-           </p>
            <p className="absolute left-[650px] top-[1216px] text-2xl font-semibold text-left text-[#0d1317]">
               Clients served
            </p>
@@ -181,17 +183,13 @@ function Numbers() {
            </p>
          </div>
          <div className="w-[264px] h-48">
-           <p className="w-[264px] absolute left-80 top-[1258px] text-base font-medium text-left text-[#5b5b5b]">
-              Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.
-           </p>
            <p className="absolute left-80 top-[1216px] text-2xl font-semibold text-left text-[#0d1317]">
               Awards received
            </p>
            <p className="absolute left-80 top-[1150px] text-4xl font-bold text-left text-[#f58a07]">15+</p>
          </div>
          <p className="w-[620px] h-[102px] absolute left-[979px] top-[960px] text-lg font-medium text-left text-[#1d3444]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
-            hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+            Our journey merges the dynamism and fresh perspectives of a start-up culture with the depth of knowledge and redefined strategies cultivated over 30 years, delivering unparalleled solutions and staying ahead in an ever-revolving landscape.
          </p>
          <p className="w-[587px] absolute left-80 top-[954px] text-4xl font-semibold text-left text-[#0d1317]">
             The energy of a start-up combined with 30 years of experience
