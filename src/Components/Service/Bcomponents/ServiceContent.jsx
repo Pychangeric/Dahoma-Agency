@@ -2,7 +2,7 @@ import * as React from "react";
 
 function ServiceContent(props) {
   return (
-    <div className="bg-white flex flex-col pt-4">
+    <div className="bg-white flex flex-col p-4 sm:p-6 md:p-8">
       <div className="self-center flex w-[1280px] max-w-full items-center justify-between gap-5 max-md:flex-wrap">
         <img
           loading="lazy"
